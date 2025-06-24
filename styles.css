@@ -26,11 +26,16 @@ ul {
     padding-right: 15px;
 }
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-block: 24px;
 }
 
 .site-nav {
@@ -100,6 +105,7 @@ ul {
     color: #404bbf;
 }
 
+
 .hero-section {
     background-color: #2e2f42;
     text-align: center;
@@ -166,6 +172,10 @@ ul {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+}
+
+.portfolio-list>li:first-child {
+    width: calc((100% - 48px) / 3);
 }
 
 .feature-item {
@@ -280,7 +290,7 @@ ul {
 }
 
 .portfolio-list>li:not(:nth-child(3n)) {
-    margin-right: 24px;
+    margin-right: 0;
 }
 
 .portfolio-list>li:nth-last-child(-n+3) {
@@ -373,7 +383,6 @@ ul {
 }
 
 .section {
-
     padding-top: 120px;
     padding-bottom: 120px;
 }
