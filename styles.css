@@ -321,3 +321,17 @@ ul {
     max-width: 264px;
     margin: 0 auto;
 }
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.portfolio-item {
+  border-bottom: 1px solid #e7e9fc;
+}
+
