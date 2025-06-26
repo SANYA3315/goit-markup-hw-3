@@ -391,6 +391,8 @@ ul {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 img {
